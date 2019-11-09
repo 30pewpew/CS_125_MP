@@ -247,7 +247,7 @@ public class CPUScheduler
 		System.out.println("Process  AT  \tBT  \tCT \tRT \tTAT \tWT");
 		for(int  i = 0 ; i< n;  i++)
 		{
-			System.out.println(pid[i] + "  \t " + ar[i] + "\t" + bt[i] + "\t" + ct[i] + "\t" + ta[i] + "\t"+ ta[i] + "\t"  + wt[i] ) ;
+			System.out.println(pid[i] + "  \t " + ar[i] + "\t" + bt[i] + "\t" + ct[i] + "\t" + wt[i] + "\t"+ ta[i] + "\t"  + wt[i] ) ;
 		}
 		sc.close();
 		System.out.println("");
